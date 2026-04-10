@@ -1,4 +1,5 @@
 # E.D.E.N. - Evolving Dataset Evaluation Engine for LLMs
+# Self-Evolving Dataset & Evaluation Engine
 
 E.D.E.N. is a backend-first AI infrastructure project for building, cleaning, scoring, evaluating, and iteratively improving prompt datasets for large language models.
 
