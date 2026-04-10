@@ -1,0 +1,36 @@
+{
+  "dataset_metrics": {
+    "dataset_count": 1,
+    "total_prompts": 4,
+    "active_prompts": 3,
+    "average_quality_score": 0.7542,
+    "category_distribution": {
+      "coding": 1,
+      "safety_sensitive_refusal": 1,
+      "structured_output": 1
+    },
+    "difficulty_distribution": {
+      "medium": 2,
+      "hard": 1
+    },
+    "duplicate_rate": 0.25,
+    "average_latency_by_model": {
+      "eden-mock-001": 15.2
+    },
+    "average_heuristic_quality_by_model": {
+      "eden-mock-001": 0.792
+    }
+  },
+  "model_metrics": [
+    {
+      "model_name": "eden-mock-001",
+      "average_latency_ms": 15.2,
+      "failure_rate": 0.0,
+      "average_consistency": 0.941,
+      "average_heuristic_quality": 0.792,
+      "best_category": "coding",
+      "worst_category": "safety_sensitive_refusal"
+    }
+  ]
+}
+

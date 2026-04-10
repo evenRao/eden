@@ -1,0 +1,74 @@
+{
+  "dataset_id": "sample-dataset-001",
+  "status": "scored",
+  "summary": {
+    "average_quality_score": 0.7542,
+    "median_quality_score": 0.761,
+    "min_quality_score": 0.7021,
+    "max_quality_score": 0.7995,
+    "category_averages": {
+      "coding": 0.7995,
+      "safety_sensitive_refusal": 0.7021,
+      "structured_output": 0.761
+    },
+    "difficulty_averages": {
+      "medium": 0.7803,
+      "hard": 0.7021
+    }
+  },
+  "scores": [
+    {
+      "prompt_item_id": "prompt-001",
+      "overall_score": 0.7995,
+      "breakdown": {
+        "clarity": 0.86,
+        "specificity": 0.8,
+        "usefulness": 0.77,
+        "inverse_ambiguity": 0.93,
+        "diversity_contribution": 0.68,
+        "category_fit": 0.9,
+        "semantic_novelty": 0.72,
+        "lexical_complexity": 0.74
+      },
+      "explanations": [
+        "The prompt strongly matches its assigned category.",
+        "This prompt is semantically novel relative to the current dataset."
+      ]
+    },
+    {
+      "prompt_item_id": "prompt-002",
+      "overall_score": 0.7021,
+      "breakdown": {
+        "clarity": 0.73,
+        "specificity": 0.66,
+        "usefulness": 0.69,
+        "inverse_ambiguity": 0.9,
+        "diversity_contribution": 0.61,
+        "category_fit": 0.7,
+        "semantic_novelty": 0.64,
+        "lexical_complexity": 0.58
+      },
+      "explanations": [
+        "Specificity is limited; add constraints, formats, or evaluation criteria."
+      ]
+    },
+    {
+      "prompt_item_id": "prompt-003",
+      "overall_score": 0.761,
+      "breakdown": {
+        "clarity": 0.82,
+        "specificity": 0.76,
+        "usefulness": 0.74,
+        "inverse_ambiguity": 0.91,
+        "diversity_contribution": 0.63,
+        "category_fit": 0.84,
+        "semantic_novelty": 0.69,
+        "lexical_complexity": 0.62
+      },
+      "explanations": [
+        "The prompt strongly matches its assigned category."
+      ]
+    }
+  ]
+}
+

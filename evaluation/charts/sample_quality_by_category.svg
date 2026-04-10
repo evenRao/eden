@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#f4f6f8" />
+  <text x="40" y="40" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#203040">
+    Sample Quality Score by Category
+  </text>
+  <line x1="80" y1="340" x2="660" y2="340" stroke="#607080" stroke-width="2" />
+  <line x1="80" y1="70" x2="80" y2="340" stroke="#607080" stroke-width="2" />
+  <rect x="130" y="108" width="110" height="232" fill="#2E6F95" rx="6" />
+  <rect x="305" y="137" width="110" height="203" fill="#A6513D" rx="6" />
+  <rect x="480" y="126" width="110" height="214" fill="#4C8B5E" rx="6" />
+  <text x="150" y="365" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#203040">coding</text>
+  <text x="304" y="365" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#203040">safety</text>
+  <text x="490" y="365" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#203040">structured</text>
+  <text x="160" y="100" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#203040">0.80</text>
+  <text x="335" y="129" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#203040">0.70</text>
+  <text x="510" y="118" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#203040">0.76</text>
+  <text x="28" y="340" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#203040">0.0</text>
+  <text x="28" y="274" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#203040">0.2</text>
+  <text x="28" y="208" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#203040">0.4</text>
+  <text x="28" y="142" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#203040">0.6</text>
+  <text x="28" y="76" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#203040">0.8</text>
+</svg>
+

@@ -1,0 +1,8 @@
+# Optional dependencies for local embedding and Hugging Face evaluation backends.
+# Keep these separate so the core API can install cleanly on newer Python versions,
+# including Python 3.14+, where older pinned torch wheels are unavailable.
+
+torch==2.5.1; python_version < "3.14"
+torch>=2.9,<2.12; python_version >= "3.14"
+sentence-transformers>=3.3,<4
+transformers>=4.48,<5
